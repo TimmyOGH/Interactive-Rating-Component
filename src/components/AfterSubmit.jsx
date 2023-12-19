@@ -9,7 +9,7 @@ function AfterSubmit(props) {
             <div className="ty_img_container">
                 <Image
                     className="ty_img"
-                    src={`${process.env.PUBLIC_URL}/images/illustration-thank-you.svg`}
+                    src="/images/illustration-thank-you.svg"
                     alt="illustration-thank-you"
                 />
             </div>
