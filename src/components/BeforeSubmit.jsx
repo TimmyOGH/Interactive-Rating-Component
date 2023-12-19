@@ -20,7 +20,7 @@ function BeforeSubmit(props) {
             <div className="star_img_container">
                 <Image
                     className="star_img"
-                    src="/images/icon-star.svg"
+                    src="`${process.env.PUBLIC_URL}/images/icon-star.svg`"
                     alt="icon-star"
                 />
             </div>
