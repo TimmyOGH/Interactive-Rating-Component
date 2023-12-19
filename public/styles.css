@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+#main_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bef_submit_component,
+.aft_submit_component {
+    background-color: hsl(213, 19%, 12%);
+    width: 30%;
+    min-width: 400px;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.aft_submit_component {
+    text-align: center;
+}
+
+.star_img_container {
+    background-color: hsl(213, 19%, 18%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ty_img_container {
+    margin: 10px 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ty_img {
+    width: 150px;
+}
+
+.selected_text_container {
+    display: inline-block;
+    width: 200px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.selected_text_container p {
+    margin-top: 3px;
+    color: hsl(25, 97%, 53%);
+}
+
+.desc_container,
+.ty_desc_container {
+    margin: 35px 0 30px;
+}
+
+.desc_container h3,
+.ty_desc_container h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.desc_container p,
+.ty_desc_container p {
+    color: hsl(216, 12%, 54%);
+}
+
+.rating_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating_circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.rating_circle p {
+    margin-top: 4px;
+}
+
+.submit_btn {
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.submit_btn:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 512px) {
+
+    .bef_submit_component,
+    .aft_submit_component {
+        width: 90%;
+        min-width: 0;
+    }
+}
