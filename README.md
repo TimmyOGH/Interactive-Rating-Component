@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/TimmyOGH/Interactive-Rating-Component)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://timmyogh.github.io/Interactive-Rating-Component/)
 
 ### Built with
 
